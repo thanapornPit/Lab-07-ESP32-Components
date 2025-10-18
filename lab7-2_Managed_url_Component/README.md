@@ -15,3 +15,15 @@
 1. เข้าไปในโฟลเดอร์ lab7-2_Managed_url_Component
 2. รันคำสั่ง `idf.py build` (จะดาวน์โหลด component จาก GitHub อัตโนมัติ)
 3. ทดสอบด้วย QEMU
+
+
+
+
+
+
+
+## โจทย์ท้าทาย
+
+สร้าง component ชื่อ Display โดย นำไฟล์ display.c และ display.h จากใบงานที่ 6 มาใช้
+
+นำโค้ดจาก main.c ในใบงานที่ 6 มาใช้ แล้ว build พร้อมทดสอบ ให้ผลลักษณะเดียวกับ component แบบ local หรือไม่
