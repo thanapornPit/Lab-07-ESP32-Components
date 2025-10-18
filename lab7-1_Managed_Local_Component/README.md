@@ -23,7 +23,7 @@
     idf.py -p <PORT> flash monitor
 
 
-โจทย์ท้าทาย
+## โจทย์ท้าทาย
 1. สร้าง component ชื่อ Display โดย นำไฟล์ display.c และ display.h จากใบงานที่ 6 มาใช้
 
 2. นำโค้ดจาก main.c ในใบงานที่ 6 มาใช้ แล้ว build พร้อมทดสอบ
