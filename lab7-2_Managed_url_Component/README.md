@@ -28,3 +28,24 @@
 สร้าง component ชื่อ Display โดย นำไฟล์ display.c และ display.h จากใบงานที่ 6 มาใช้
 
 นำโค้ดจาก main.c ในใบงานที่ 6 มาใช้ แล้ว build พร้อมทดสอบ ให้ผลลักษณะเดียวกับ component แบบ local หรือไม่
+```bash
+ I (8003) MAIN: === Loop 0 ===
+ I (8003) DISPLAY: 🧹 Screen cleared from file: ./managed_components/lab7_components/Display/display.c, line: 28
+ I (8003) DISPLAY: ✨ Display ready for new content
+ I (8003) SENSOR: 📊 Reading sensor data from file: ./managed_components/lab7_components/Sensors/sensor.c, line: 18
+ I (8003) SENSOR: 🌡️  Temperature: 30.7°C
+ I (8013) SENSOR: 💧 Humidity: 84.2%
+ I (8013) DISPLAY: 📊 Data display from file: ./managed_components/lab7_components/Display/display.c, line: 21
+ I (8023) DISPLAY: 📈 Value 1: 26.50
+ I (8023) DISPLAY: 📉 Value 2: 61.00
+ I (10023) MAIN: === Loop 1 ===
+ I (10023) DISPLAY: 🧹 Screen cleared from file: ./managed_components/lab7_components/Display/display.c, line: 28
+ I (10023) DISPLAY: ✨ Display ready for new content
+ I (10023) SENSOR: 📊 Reading sensor data from file: ./managed_components/lab7_components/Sensors/sensor.c, line: 18
+ I (10023) SENSOR: 🌡️  Temperature: 30.2°C
+ I (10023) SENSOR: 💧 Humidity: 79.0%
+ I (10023) DISPLAY: 📊 Data display from file: ./managed_components/lab7_components/Display/display.c, line: 21
+ I (10023) DISPLAY: 📈 Value 1: 27.50
+ I (10023) DISPLAY: 📉 Value 2: 62.00
+
+```
