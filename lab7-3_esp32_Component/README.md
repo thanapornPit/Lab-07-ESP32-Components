@@ -15,3 +15,22 @@
 
 <img width="562" height="532" alt="image" src="https://github.com/user-attachments/assets/79685ce0-fd0e-4de0-9974-b2a5c3430aa8" />
 
+## โครงสร้างโฟลเดอร์หลังใช้ create-component
+lab7-3_esp32_Component/
+├── CMakeLists.txt
+├── components/
+│   ├── sensor/
+│   │   ├── CMakeLists.txt
+│   │   ├── include/
+│   │   │   └── sensor.h
+│   │   └── sensor.c
+│   └── display/
+│       ├── CMakeLists.txt
+│       ├── include/
+│       │   └── display.h
+│       └── display.c
+├── main/
+│   ├── CMakeLists.txt
+│   └── lab7-3.c
+├── build/
+└── README.md
