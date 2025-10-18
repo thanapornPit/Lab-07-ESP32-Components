@@ -22,7 +22,7 @@
     # (ถ้ามีบอร์ดจริง) Flash และ Monitor
     idf.py -p <PORT> flash monitor
 
-
+```
 ## โจทย์ท้าทาย
 1. สร้าง component ชื่อ Display โดย นำไฟล์ display.c และ display.h จากใบงานที่ 6 มาใช้
 
